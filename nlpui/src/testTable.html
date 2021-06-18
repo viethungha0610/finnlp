@@ -1,0 +1,832 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Timestamp</th>
+      <th>Source</th>
+      <th>Headline</th>
+      <th>Sentiment</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Bloomberg</td>
+      <td>G-7 Strikes Historic Deal to Revamp Global Tax on Tech Firms</td>
+      <td>positive</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Bloomberg</td>
+      <td>Vaccinated Europeans Book Holidays While Brits Decry U-Turn</td>
+      <td>negative</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Bloomberg</td>
+      <td>G-7 Targets Environmental Crimes in Push for Greater Disclosure</td>
+      <td>neutral</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Bloomberg</td>
+      <td>Gunmen Kill 100 in Burkina Faso’s Deadliest Attack in Years</td>
+      <td>negative</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Bloomberg</td>
+      <td>Berlin Police Detain Journalists at Anti-Autobahn Protest</td>
+      <td>negative</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Bloomberg</td>
+      <td>U.S.-China Trade Relationship Significantly Imbalanced, Tai Says</td>
+      <td>negative</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Bloomberg</td>
+      <td>Putin Warns U.S. May Regret Using Dollar as Sanctions Weapon</td>
+      <td>negative</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Bloomberg</td>
+      <td>Rosneft Warns of ‘Severe’ Oil Shortage Amid Hasty Energy Shift</td>
+      <td>negative</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Bloomberg</td>
+      <td>Twitter Shuttered in Nigeria After Removing President’s Post</td>
+      <td>negative</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Bloomberg</td>
+      <td>U.S. Cases and Fatalities Continue to Decline: Virus Update</td>
+      <td>negative</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Bloomberg</td>
+      <td>Michelin Is Out to Make the World’s Greenest Tire</td>
+      <td>positive</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Bloomberg</td>
+      <td>Red Hot Housing Market Is Creating a Fresh Risk for U.K. Economy</td>
+      <td>negative</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Bloomberg</td>
+      <td>Manchester United Will Allow Soccer Fans to Buy Shares in Club</td>
+      <td>neutral</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Bloomberg</td>
+      <td>Engine No. 1 Exxon Pick Is a Different Kind of Climate Activist</td>
+      <td>neutral</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Bloomberg</td>
+      <td>A $4,749 Bike Hints at Inflation Peril Looming for U.S. Economy</td>
+      <td>negative</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Bloomberg</td>
+      <td>The Pandemic Has Books Back in Business Again</td>
+      <td>positive</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Bloomberg</td>
+      <td>The SPAC Is Dead. Meet Bill Ackman's SPARC</td>
+      <td>neutral</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Bloomberg</td>
+      <td>That Portugal Holiday Was Nice for Brits While It Lasted</td>
+      <td>neutral</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Bloomberg</td>
+      <td>The Fed's Inflation Logic Is Flawed, and Dangerous</td>
+      <td>negative</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Bloomberg</td>
+      <td>The Next Market Crash Looms Large in Fund Reform</td>
+      <td>neutral</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Financial Times</td>
+      <td>G7 strikes historic agreement on taxing multinationals</td>
+      <td>positive</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Financial Times</td>
+      <td>How acute inequality scars Cornish idyll hosting G7 summit</td>
+      <td>neutral</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Financial Times</td>
+      <td>UK readies contingency plans to delay June 21 easing</td>
+      <td>neutral</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Financial Times</td>
+      <td>London’s private clubs dig deep after Covid storm</td>
+      <td>neutral</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Financial Times</td>
+      <td>Sustainable investing boom and net zero pledges drive ESG talent war</td>
+      <td>positive</td>
+    </tr>
+    <tr>
+      <th>30</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Financial Times</td>
+      <td>Tiger Cubs: How Julian Robertson built a hedge fund dynasty</td>
+      <td>neutral</td>
+    </tr>
+    <tr>
+      <th>31</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Financial Times</td>
+      <td>Anthony Fauci: America’s doctor under siege</td>
+      <td>neutral</td>
+    </tr>
+    <tr>
+      <th>32</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Financial Times</td>
+      <td>The real threat to the empire of English</td>
+      <td>neutral</td>
+    </tr>
+    <tr>
+      <th>33</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Financial Times</td>
+      <td>Hacking American beef: the relentless rise of ransomware</td>
+      <td>neutral</td>
+    </tr>
+    <tr>
+      <th>34</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Financial Times</td>
+      <td>Facebook bans Trump for at least two years</td>
+      <td>negative</td>
+    </tr>
+    <tr>
+      <th>35</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Financial Times</td>
+      <td>Nigeria blocks Twitter from country’s mobile networks</td>
+      <td>negative</td>
+    </tr>
+    <tr>
+      <th>36</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Financial Times</td>
+      <td>Glazers agree scheme to allow fans to buy Manchester United shares</td>
+      <td>neutral</td>
+    </tr>
+    <tr>
+      <th>37</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Financial Times</td>
+      <td>Barclay family settles dispute over bugging at Ritz</td>
+      <td>negative</td>
+    </tr>
+    <tr>
+      <th>38</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Financial Times</td>
+      <td>Scientists fear future leaks as top-level labs proliferate</td>
+      <td>negative</td>
+    </tr>
+    <tr>
+      <th>39</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Financial Times</td>
+      <td>Russian tennis player arrested at French Open in match-fixing probe</td>
+      <td>negative</td>
+    </tr>
+    <tr>
+      <th>40</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Financial Times</td>
+      <td>Crypto investor Vignesh Sundaresan: ‘It’s the NFT that changed the world’</td>
+      <td>neutral</td>
+    </tr>
+    <tr>
+      <th>41</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Financial Times</td>
+      <td>Memories of Myanmar: a story of exile</td>
+      <td>neutral</td>
+    </tr>
+    <tr>
+      <th>42</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Financial Times</td>
+      <td>London’s Sky Pool: a disaster that’s already happened</td>
+      <td>negative</td>
+    </tr>
+    <tr>
+      <th>43</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Financial Times</td>
+      <td>Hounded for cash — the sudden surge in dog bills</td>
+      <td>negative</td>
+    </tr>
+    <tr>
+      <th>44</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Financial Times</td>
+      <td>The Englishman trying to save American bookstores from Amazon</td>
+      <td>neutral</td>
+    </tr>
+    <tr>
+      <th>45</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Financial Times</td>
+      <td>In defence of buy-to-let landlords</td>
+      <td>neutral</td>
+    </tr>
+    <tr>
+      <th>46</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Financial Times</td>
+      <td>Lost learning time in English schools widens attainment gap</td>
+      <td>negative</td>
+    </tr>
+    <tr>
+      <th>47</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Financial Times</td>
+      <td>UK holiday operators benefit from tighter curbs on foreign travel</td>
+      <td>positive</td>
+    </tr>
+    <tr>
+      <th>48</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Financial Times</td>
+      <td>English winemaker Chapel Down seeks to cash in on sparkling sales</td>
+      <td>positive</td>
+    </tr>
+    <tr>
+      <th>49</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Financial Times</td>
+      <td>Pret vs Greggs: who will win the battle for lunch?</td>
+      <td>neutral</td>
+    </tr>
+    <tr>
+      <th>50</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Financial Times</td>
+      <td>Washington to bar US investors from 59 Chinese companies</td>
+      <td>negative</td>
+    </tr>
+    <tr>
+      <th>51</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Financial Times</td>
+      <td>Fauci urges China to release medical records of Wuhan lab workers</td>
+      <td>neutral</td>
+    </tr>
+    <tr>
+      <th>52</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Financial Times</td>
+      <td>Tiger’s Julian Robertson bets big tech stocks will keep marching higher</td>
+      <td>positive</td>
+    </tr>
+    <tr>
+      <th>53</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Financial Times</td>
+      <td>G7 set to strike deal on global corporate taxation</td>
+      <td>neutral</td>
+    </tr>
+    <tr>
+      <th>55</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Financial Times</td>
+      <td>Abdulaziz bin Salman, the prince in charge of Saudi oil</td>
+      <td>neutral</td>
+    </tr>
+    <tr>
+      <th>56</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Financial Times</td>
+      <td>Carbon counter: cruise holidays sail away with travel emissions</td>
+      <td>neutral</td>
+    </tr>
+    <tr>
+      <th>57</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Financial Times</td>
+      <td>Gutting the education plan fails our children — Boris Johnson must rethink</td>
+      <td>neutral</td>
+    </tr>
+    <tr>
+      <th>58</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Financial Times</td>
+      <td>Investors should look to Europe when making their next move</td>
+      <td>neutral</td>
+    </tr>
+    <tr>
+      <th>59</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Financial Times</td>
+      <td>Apologies for historical atrocities fall short of a proper reckoning</td>
+      <td>neutral</td>
+    </tr>
+    <tr>
+      <th>60</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Financial Times</td>
+      <td>The UK’s flexible constitution has had its day</td>
+      <td>neutral</td>
+    </tr>
+    <tr>
+      <th>61</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Financial Times</td>
+      <td>Hedge fund stars shy away from the limelight</td>
+      <td>negative</td>
+    </tr>
+    <tr>
+      <th>62</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Financial Times</td>
+      <td>Faye Schulman, photographer and resistance fighter, 1919-2021</td>
+      <td>neutral</td>
+    </tr>
+    <tr>
+      <th>63</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Financial Times</td>
+      <td>A slow population decline is nothing to fear</td>
+      <td>neutral</td>
+    </tr>
+    <tr>
+      <th>64</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Financial Times</td>
+      <td>Chinese central bank governor backs push for climate risk disclosure</td>
+      <td>neutral</td>
+    </tr>
+    <tr>
+      <th>66</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Financial Times</td>
+      <td>G7 criticised for Covid bailouts with no ‘green strings’ attached</td>
+      <td>negative</td>
+    </tr>
+    <tr>
+      <th>67</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Financial Times</td>
+      <td>US lithium mining faces new hurdle in form of rare flower</td>
+      <td>positive</td>
+    </tr>
+    <tr>
+      <th>68</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Financial Times</td>
+      <td>Sustainable materials are a vision of fashion’s future</td>
+      <td>neutral</td>
+    </tr>
+    <tr>
+      <th>69</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Financial Times</td>
+      <td>Hydrogen — Fantasy or fuel of the future?</td>
+      <td>neutral</td>
+    </tr>
+    <tr>
+      <th>70</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Financial Times</td>
+      <td>The museum that celebrates the ‘joyful mess’ of home</td>
+      <td>neutral</td>
+    </tr>
+    <tr>
+      <th>71</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Financial Times</td>
+      <td>The best of TV and streaming this week</td>
+      <td>neutral</td>
+    </tr>
+    <tr>
+      <th>72</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Financial Times</td>
+      <td>The mullet is making a comeback</td>
+      <td>neutral</td>
+    </tr>
+    <tr>
+      <th>73</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Financial Times</td>
+      <td>The best books of the week</td>
+      <td>neutral</td>
+    </tr>
+    <tr>
+      <th>74</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Financial Times</td>
+      <td>The secret life of glaciers</td>
+      <td>neutral</td>
+    </tr>
+    <tr>
+      <th>75</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Financial Times</td>
+      <td>British holidays at home</td>
+      <td>neutral</td>
+    </tr>
+    <tr>
+      <th>76</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Financial Times</td>
+      <td>Belarus: more than a moral dilemma</td>
+      <td>neutral</td>
+    </tr>
+    <tr>
+      <th>77</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Financial Times</td>
+      <td>We know what you did during lockdown. An FT Film written by James Graham</td>
+      <td>neutral</td>
+    </tr>
+    <tr>
+      <th>79</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Financial Times</td>
+      <td>Why every Dogecoin has its day - crypto explained</td>
+      <td>neutral</td>
+    </tr>
+    <tr>
+      <th>80</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Financial Times</td>
+      <td>Greensill: a tale of hubris, hype and greed</td>
+      <td>neutral</td>
+    </tr>
+    <tr>
+      <th>81</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Financial Times</td>
+      <td>Tod's CEO Diego Della Valle plans for the future</td>
+      <td>neutral</td>
+    </tr>
+    <tr>
+      <th>82</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Financial Times</td>
+      <td>Used car prices take upward turn as demand outstrips supply</td>
+      <td>negative</td>
+    </tr>
+    <tr>
+      <th>83</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Financial Times</td>
+      <td>HSBC splits Asia leadership as it increases focus on China</td>
+      <td>positive</td>
+    </tr>
+    <tr>
+      <th>84</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Financial Times</td>
+      <td>Naomi Osaka takes on the tennis establishment</td>
+      <td>neutral</td>
+    </tr>
+    <tr>
+      <th>85</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Financial Times</td>
+      <td>How Swiss asset managers opened their doors to Lex Greensill</td>
+      <td>neutral</td>
+    </tr>
+    <tr>
+      <th>86</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Financial Times</td>
+      <td>Are you working in a fractured organisation?</td>
+      <td>neutral</td>
+    </tr>
+    <tr>
+      <th>87</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Financial Times</td>
+      <td>Who will pay? Europe’s bold plan on emissions risks political blowback</td>
+      <td>neutral</td>
+    </tr>
+    <tr>
+      <th>88</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Financial Times</td>
+      <td>US stocks rise and bonds rally after jobs report</td>
+      <td>positive</td>
+    </tr>
+    <tr>
+      <th>91</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Financial Times</td>
+      <td>UK regulator warns on crypto industry’s anti-money laundering practices</td>
+      <td>negative</td>
+    </tr>
+    <tr>
+      <th>92</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Financial Times</td>
+      <td>Foreign investors buy UK government debt at record rate</td>
+      <td>neutral</td>
+    </tr>
+    <tr>
+      <th>93</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Financial Times</td>
+      <td>AMC again taps ‘meme stock’ boom with plans for new share sale</td>
+      <td>neutral</td>
+    </tr>
+    <tr>
+      <th>96</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Financial Times</td>
+      <td>Facebook’s date with Europe</td>
+      <td>neutral</td>
+    </tr>
+    <tr>
+      <th>98</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Financial Times</td>
+      <td>Amazon’s MGM deal doesn’t need to revolutionise streaming to pay off</td>
+      <td>neutral</td>
+    </tr>
+    <tr>
+      <th>100</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Reuters</td>
+      <td>G7 nations strike deal to tax big companies and squeeze havens</td>
+      <td>neutral</td>
+    </tr>
+    <tr>
+      <th>101</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Reuters</td>
+      <td>U.S. federal judge overturns California's ban on assault weapons</td>
+      <td>negative</td>
+    </tr>
+    <tr>
+      <th>102</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Reuters</td>
+      <td>Biden rejects new Republican infrastructure offer</td>
+      <td>neutral</td>
+    </tr>
+    <tr>
+      <th>103</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Reuters</td>
+      <td>U.S. encouraged by progress toward vaccine patent waiver</td>
+      <td>positive</td>
+    </tr>
+    <tr>
+      <th>104</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Reuters</td>
+      <td>Hong Kong organiser of Tiananmen vigil released on bail</td>
+      <td>neutral</td>
+    </tr>
+    <tr>
+      <th>105</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Reuters</td>
+      <td>Three U.S. senators to visit Taiwan, trip likely to irritate China</td>
+      <td>negative</td>
+    </tr>
+    <tr>
+      <th>106</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Reuters</td>
+      <td>U.S. conservatives stake claim to climate activism with Miami rally</td>
+      <td>neutral</td>
+    </tr>
+    <tr>
+      <th>107</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Reuters</td>
+      <td>UK to protect population before donating vaccines abroad, minister says</td>
+      <td>neutral</td>
+    </tr>
+    <tr>
+      <th>108</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Reuters</td>
+      <td>Putin calls U.S. ransomware allegations an attempt to stir pre-summit trouble</td>
+      <td>negative</td>
+    </tr>
+    <tr>
+      <th>109</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Reuters</td>
+      <td>As Hungary lifts restrictions, couples can wed at last</td>
+      <td>neutral</td>
+    </tr>
+    <tr>
+      <th>110</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Reuters</td>
+      <td>German archbishop offers to resign over Church’s sexual abuse ‘catastrophe’</td>
+      <td>negative</td>
+    </tr>
+    <tr>
+      <th>113</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Reuters</td>
+      <td>NRA to defend against NY attorney general in Manhattan, drops own lawsuit</td>
+      <td>neutral</td>
+    </tr>
+    <tr>
+      <th>116</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Reuters</td>
+      <td>Explainer: What is a global minimum tax and what will it mean?</td>
+      <td>neutral</td>
+    </tr>
+    <tr>
+      <th>117</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Reuters</td>
+      <td>U.S. leisure and hospitality pay surges to a record. Now will workers come?</td>
+      <td>positive</td>
+    </tr>
+    <tr>
+      <th>118</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Reuters</td>
+      <td>Musk breakup tweets bruise bitcoin</td>
+      <td>neutral</td>
+    </tr>
+    <tr>
+      <th>119</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Reuters</td>
+      <td>India to Twitter: Comply with IT rules or face 'unintended consequences'</td>
+      <td>negative</td>
+    </tr>
+    <tr>
+      <th>120</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Reuters</td>
+      <td>Nigerian telecoms firms suspend access to Twitter</td>
+      <td>negative</td>
+    </tr>
+    <tr>
+      <th>121</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Reuters</td>
+      <td>Nigeria says it suspends Twitter days after president’s post removed</td>
+      <td>negative</td>
+    </tr>
+    <tr>
+      <th>122</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Reuters</td>
+      <td>US Justice Dept got gag order on NY Times execs in fight over email logs - NYT</td>
+      <td>negative</td>
+    </tr>
+    <tr>
+      <th>123</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Reuters</td>
+      <td>MLB roundup: Manny Machado, Blake Snell lead Padres past Mets</td>
+      <td>neutral</td>
+    </tr>
+    <tr>
+      <th>124</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Reuters</td>
+      <td>Gauff gears up for biggest clay test against Brady</td>
+      <td>neutral</td>
+    </tr>
+    <tr>
+      <th>125</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Reuters</td>
+      <td>Injured Wawrinka won't be ready for Wimbledon</td>
+      <td>neutral</td>
+    </tr>
+    <tr>
+      <th>126</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Reuters</td>
+      <td>Djokovic marches into fourth round with Berankis thrashing</td>
+      <td>neutral</td>
+    </tr>
+    <tr>
+      <th>127</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Reuters</td>
+      <td>Russia's Sechin warns of 'acute' oil shortage amid drive for green energy</td>
+      <td>negative</td>
+    </tr>
+    <tr>
+      <th>128</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Reuters</td>
+      <td>Putin says Nord Stream 2 gas link to be finished as U.S. seeks good European ties</td>
+      <td>positive</td>
+    </tr>
+    <tr>
+      <th>129</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Reuters</td>
+      <td>Oil hits two-year high on OPEC+ discipline, demand hopes</td>
+      <td>positive</td>
+    </tr>
+    <tr>
+      <th>130</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Reuters</td>
+      <td>Oil traders ramp up Asian jet fuel exports to U.S., Europe</td>
+      <td>positive</td>
+    </tr>
+    <tr>
+      <th>131</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Reuters</td>
+      <td>Ride a Green Swan: central banks grapple with climate risk</td>
+      <td>neutral</td>
+    </tr>
+    <tr>
+      <th>132</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Reuters</td>
+      <td>EXCLUSIVE Biden’s electric vehicle plan includes battery recycling push</td>
+      <td>neutral</td>
+    </tr>
+    <tr>
+      <th>133</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Reuters</td>
+      <td>UK says all state contract bidders must commit to 2050 net zero goal</td>
+      <td>neutral</td>
+    </tr>
+    <tr>
+      <th>134</th>
+      <td>06/05/2021, 15:28:43</td>
+      <td>Reuters</td>
+      <td>Norway wealth fund to vote for shareholder climate policy initiative at Caterpillar AGM</td>
+      <td>neutral</td>
+    </tr>
+  </tbody>
+</table>

@@ -138,3 +138,8 @@ notebooks/secret.py
 
 # Trained model
 input/finbert/*
+
+# Draft notebooks
+nlp/testNotebook.ipynb
+nlp/.ipynb_checkpoints/
+nlp/testTable.json

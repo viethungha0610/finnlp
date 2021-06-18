@@ -37,7 +37,7 @@ def softmax(x):
     return e_x / np.sum(e_x, axis=1)[:, None]
 
 def extract_sentiment(news_df=None, 
-                      print_results=False):
+                      print_results=True):
     input_ids = []
     attn_masks = []
 
